@@ -1752,6 +1752,14 @@ export const extraRpcs = {
       },
     ],
   },
+  1236: {
+    rpcs: [
+      {
+        url: "https://rpc.brainark.online",
+        tracking: "none",
+      },
+    ],
+  },
   2340: {
     rpcs: [
       {
@@ -3485,6 +3493,15 @@ export const extraRpcs = {
       "https://test-rpc.netxscan.io",
     ],
   },
+  589: {
+      rpcs: [
+        {
+          url: "https://ladyrpc.us/rpc",
+          tracking: "none",
+          trackingDetails: "LadyRPC does not collect or store any user data including IP addresses or transaction details.",
+        },
+      ],
+    },
   288: {
     rpcs: [
       "https://mainnet.boba.network/",
@@ -4673,16 +4690,6 @@ export const extraRpcs = {
       },
       {
         url: "https://xlayer.rpc.blxrbdn.com",
-        tracking: "yes",
-        trackingDetails: privacyStatement.bloxroute,
-      },
-      {
-        url: "https://okx-xlayer.rpc.blxrbdn.com",
-        tracking: "yes",
-        trackingDetails: privacyStatement.bloxroute,
-      },
-      {
-        url: "https://flap-xlayer.rpc.blxrbdn.com",
         tracking: "yes",
         trackingDetails: privacyStatement.bloxroute,
       },
@@ -10116,7 +10123,16 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.sentio,
       }
     ]
-  }
+  },
+  5124: {
+    rpcs: [
+      {
+        url: "https://testnet-1.seismictest.net/rpc",
+        tracking: "none",
+        trackingDetails: "No user tracking or data collection",
+      },
+    ],
+  },
 };
 
 export default extraRpcs;
